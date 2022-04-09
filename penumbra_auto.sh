@@ -108,7 +108,7 @@ function showsaddressPenumbra {
 }
 
 function checkbalancePenumbra {
-        cargo run --quiet --release --bin pcli balance
+        cd $HOME/penumbra && cargo run --quiet --release --bin pcli balance
 }
 
 function stakePenumbra {
